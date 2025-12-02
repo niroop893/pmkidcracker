@@ -56,6 +56,7 @@ python3 pmkidcracker.py \
   -p "0123456789abcdef0123456789abcdef" \
   -w rockyou.txt \
   -t 16
+  
 2. With Best64 + Numbers:
 bash
 
@@ -68,6 +69,7 @@ python3 pmkidcracker.py \
   -w rockyou.txt \
   -r best64 numbers \
   -t 16
+  
 3. Leetspeak + Case + Symbols:
 bash
 
@@ -81,6 +83,7 @@ python3 pmkidcracker.py \
   -r leet case symbols \
   --max-candidates 200 \
   -t 20
+  
 4. All Rules (Maximum Coverage):
 bash
 
@@ -94,6 +97,7 @@ python3 pmkidcracker.py \
   -r all \
   --max-candidates 150 \
   -t 32
+  
 5. WPA3 Mode:
 bash
 
@@ -107,6 +111,8 @@ python3 pmkidcracker.py \
   --protocol wpa3 \
   -r best64 \
   -t 16
+
+  
 KEY ENHANCEMENTS:
 ✅ Rule Engine:
 best64 - Hashcat's most effective rules
